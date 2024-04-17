@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #007bff, #0056b3); 
+    background: linear-gradient(to bottom, #9fb5cc, #3d915d); 
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -36,7 +36,7 @@ body {
     width: 300px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a8adb3;
+    background-color: #5a976f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -44,6 +44,6 @@ body {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #9fb6ce;
 
 }
