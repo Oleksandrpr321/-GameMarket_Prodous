@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #9fb5cc, #3d915d); 
+    background: linear-gradient(to bottom, #299c5b, #2d43c0); 
     margin: 20;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -11,13 +11,14 @@ body {
 .container {
     text-align: center;
     display: flex;
-  
+    justify-content: space-between;
+    /* margin-left: 5%; */
 }
 
 .photo img {
     max-width: 100%;
     height: auto;
-  
+    order: 1;
 }
 
 .price {
@@ -28,22 +29,37 @@ body {
     /* Стилі для зірок або рейтингу */
 }
 .buttons{
+    display: flex;
+    flex-direction: column;
     padding-left: 10%;
-    
+    justify-content: flex-end;
+    order: 2;
+    margin-right: 5%; 
 }
 .button {
     height: 100px;
     width: 300px;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5a976f;
+    display: flex;
+    justify-content: center; /* Розмістити текст по центру горизонталі */
+    align-items: center; /* Розмістити текст по центру вертикалі */
+    background-color: #3574b7;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    margin-bottom: 30px; /* Додати бажане значення проміжку */
 }
+
+
+
 
 .button:hover {
     background-color: #9fb6ce;
 
+}
+.caption {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
 }
