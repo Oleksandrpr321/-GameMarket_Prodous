@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #299c5b, #2d43c0); 
-    margin: 20;
+    background: linear-gradient(to bottom, #ffffff, #ffffff); 
+    margin: 30;
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -15,11 +15,20 @@ body {
     /* margin-left: 5%; */
 }
 
-.photo img {
-    max-width: 100%;
-    height: auto;
-    order: 1;
+.photo {
+    width: 40%; /* Ширина контейнера фотографії */
+    margin: 0 auto; /* Центрування контейнера по горизонталі */
+    margin-left: 40px; /* Зсув фотографії на ліво */
 }
+
+
+.photo img {
+    width: 40%; /* Змінюємо ширину зображення на 100% */
+    height: auto;
+    margin-right: 20px; /* Додаємо відступ справа */
+    margin-left: -20px; /* Зсуваємо зображення ліворуч */
+}
+
 
 .price {
     /* Стилі для ціни */
@@ -42,8 +51,8 @@ body {
     display: flex;
     justify-content: center; /* Розмістити текст по центру горизонталі */
     align-items: center; /* Розмістити текст по центру вертикалі */
-    background-color: #3574b7;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -60,6 +69,6 @@ body {
 .caption {
     text-align: center;
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     margin-top: 10px;
 }
