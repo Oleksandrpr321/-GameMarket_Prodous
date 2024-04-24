@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(173, 193, 211);
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    ju
+    gap: 40px;
+    /* justify-content: space-around; */
+}
+
+div {
+    border: 1px solid rgb(46, 24, 24);
+    background-color: rgb(255, 255, 255);
+
+}
