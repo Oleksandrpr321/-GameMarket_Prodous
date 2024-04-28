@@ -1,6 +1,4 @@
 body {
-
-   
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -40,20 +38,13 @@ body {
     justify-content: flex-start;
 
 }
-
-
-
 .photo {
     margin-bottom: 20px;
 }
-
-
 .photo img {
     width: 200px;
     height: auto;
 }
-
-
 .price {
     text-align: left;
   color: #ffffff;
