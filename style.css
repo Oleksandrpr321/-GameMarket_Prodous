@@ -60,10 +60,18 @@ body {
   margin-bottom: 10px;
 }
 
-.stars {
-    /* Стилі для зірок або рейтингу */
-}
-
+.star {
+    justify-content:flex-end;
+    text-align: left;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .rating .star:hover,
+  .rating .star.active {
+    color: #fffb00;
+  }
+  
 .middle-column {
     flex: 1;
     display: flex;
