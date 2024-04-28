@@ -1,32 +1,70 @@
 body {
-    background: linear-gradient(to bottom, #503f3f, #ffffff); 
+
+    background: linear-gradient(to bottom, #503f3f, #ffffff);
     margin: 30;
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
-    
-    
+    display: flex;
+    justify-content: center;
+
+}
+
+.section {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .container {
-    text-align: center;
     display: flex;
-    justify-content: space-between;
-    /* margin-left: 5%; */
+    max-width: 1200px;
+    /* Максимальна ширина контейнера */
+    width: 100%;
+    padding: 20px;
+    gap: 200px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+
+/* Glass Effect */
+.glass {
+    background: linear-gradient(135deg, rgba(225, 225, 225, 0.1), rgba(225, 225, 225, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(225, 225, 225, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(225, 225, 225, 0.37);
 }
 
 .photo {
-    width: 40%; /* Ширина контейнера фотографії */
-    margin: 0 auto; /* Центрування контейнера по горизонталі */
-    margin-left: 40px; /* Зсув фотографії на ліво */
+    width: 40%;
+    /* Ширина контейнера фотографії */
+    margin: 0 auto;
+    /* Центрування контейнера по горизонталі */
+    margin-left: 40px;
+    /* Зсув фотографії на ліво */
 }
 
 
 .photo img {
-    width: 40%; /* Змінюємо ширину зображення на 100% */
+    width: 40%;
+    /* Змінюємо ширину зображення на 100% */
     height: auto;
-    margin-right: 20px; /* Додаємо відступ справа */
-    margin-left: -20px; /* Зсуваємо зображення ліворуч */
+    margin-right: 20px;
+    /* Додаємо відступ справа */
+    margin-left: -20px;
+    /* Зсуваємо зображення ліворуч */
 }
 
 
@@ -37,26 +75,31 @@ body {
 .stars {
     /* Стилі для зірок або рейтингу */
 }
-.buttons{
+
+.buttons {
     display: flex;
     flex-direction: column;
     padding-left: 10%;
     justify-content: flex-end;
     order: 2;
-    margin-right: 5%; 
+    margin-right: 5%;
 }
+
 .button {
     height: 100px;
     width: 300px;
     display: flex;
-    justify-content: center; /* Розмістити текст по центру горизонталі */
-    align-items: center; /* Розмістити текст по центру вертикалі */
+    justify-content: center;
+    /* Розмістити текст по центру горизонталі */
+    align-items: center;
+    /* Розмістити текст по центру вертикалі */
     background-color: #3a3030;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-bottom: 30px; /* Додати бажане значення проміжку */
+    margin-bottom: 30px;
+    /* Додати бажане значення проміжку */
 }
 
 
@@ -66,6 +109,7 @@ body {
     background-color: #9fb6ce;
 
 }
+
 .caption {
     text-align: center;
     font-size: 18px;
