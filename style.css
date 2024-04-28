@@ -1,13 +1,16 @@
 body {
 
-    background: linear-gradient(to bottom, #503f3f, #ffffff);
-    margin: 30;
-    padding: 0;
+   
     font-family: Arial, sans-serif;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(Img/bg.jpg);
+    background-size: cover;
+    /* Паросток папаї */
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    height: 100vh;
 }
 
 .section {
@@ -22,8 +25,9 @@ body {
 .container {
     display: flex;
     max-width: 1200px;
+    min-width: 1000px;
     /* Максимальна ширина контейнера */
-    width: 100%;
+    width: 100%px;
     padding: 20px;
     gap: 200px;
 }
@@ -38,44 +42,45 @@ body {
 }
 
 /* Glass Effect */
-.glass {
+/* .glass {
     background: linear-gradient(135deg, rgba(225, 225, 225, 0.1), rgba(225, 225, 225, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(225, 225, 225, 0.18);
     box-shadow: 0 8px 32px 0 rgba(225, 225, 225, 0.37);
-}
+} */
 
 .photo {
-    width: 40%;
-    /* Ширина контейнера фотографії */
-    margin: 0 auto;
-    /* Центрування контейнера по горизонталі */
-    margin-left: 40px;
-    /* Зсув фотографії на ліво */
+    margin-bottom: 20px;
 }
 
 
 .photo img {
-    width: 40%;
-    /* Змінюємо ширину зображення на 100% */
+    width: 200px;
     height: auto;
-    margin-right: 20px;
-    /* Додаємо відступ справа */
-    margin-left: -20px;
-    /* Зсуваємо зображення ліворуч */
 }
 
 
 .price {
-    /* Стилі для ціни */
+    text-align: center;
+  color: #c1121f;
+  margin-bottom: 10px;
 }
 
 .stars {
     /* Стилі для зірок або рейтингу */
 }
 
+.middle-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* Відступи між елементами у середній колонці */
+    justify-content: center;
+}
 .buttons {
     display: flex;
     flex-direction: column;
@@ -101,18 +106,75 @@ body {
     margin-bottom: 30px;
     /* Додати бажане значення проміжку */
 }
-
-
-
-
 .button:hover {
     background-color: #9fb6ce;
-
 }
 
-.caption {
-    text-align: center;
-    font-size: 18px;
-    color: #000000;
-    margin-top: 10px;
+.right-column {
+    flex: 1;
+    /* Займати увесь доступний простір */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Вирівняти по центру */
+    gap: 20px;
+    /* Відступи між елементами у правій колонці */
+  }
+
+
+
+  /* .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    text-decoration: none;
+    align-content: center;
 }
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+} */
