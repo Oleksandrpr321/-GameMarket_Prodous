@@ -10,7 +10,7 @@ body {
 }
 
 content {
-    width: 460px;
+    width: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
