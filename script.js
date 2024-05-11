@@ -62,10 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
               // Відкриття нового вікна з вказаною посиланням
               window.open("https://github.com/Oleksandrpr321/-GameMarket_Prodous.git", "_blank");
           } 
-          //else {
-          //     // Помилка при списанні коштів
-          //     alert("Помилка при спробі здійснити переказ!");
-          // }
+          
         });
 
         newWindow.document.getElementById("paymentMenu").style.display = "block"; // Показати меню оплати у новому вікні
