@@ -178,7 +178,7 @@ if (itemsDiv) {
                 <div class="item-title">${item.gameTitle}</div>
                 <!-- блок зображення товару  -->
                 <div class="item-image">
-                <img src="${item.authorPhoto}" alt="" />
+                <img src="${item.authorPhoto}" alt="${item.fullName}" />
                 </div>
                 <!-- блок з оплатою частинами -->
                 <div class="parts-pay">
