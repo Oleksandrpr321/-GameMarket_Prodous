@@ -1,239 +1,199 @@
-//Перевірка підключення
-//console.log('Перевірка чи підключено market.js')
-// Визначення масиву товарів
-// let itemsArray = [
-//     'Газонокосарка 43',
-//     'Електричний тример 110',
-//     'Електрична газонокосарка 32',
-//     'Акумуляторний оприскувач 12 N',
-// ]
 
 let itemsArray = [
-    {
-        title: "Мотокоса 43",
-        image: "img-market/1.png",
-        mono: 4,
-        pb: 10,
-        price_standart: 5000,
-        price_discount: 4000,
-        price_coupon: 3700,
-
-    },
-
-    {
-        title: "Електричний тример 110",
-        image: "img-market/2.webp",
-        mono: 5,
-        pb: 3,
-        price_standart: 5770,
-        price_discount: 4550,
-        price_coupon: 3365,
-    },
-
-    {
-        title: "Електрична газонокосарка 32",
-        image: "img-market/3.webp",
-        mono: 8,
-        pb: 3,
-        price_standart: 5470,
-        price_discount: 4690,
-        price_coupon: 3733,
-    },
-    {
-        title: "Акумуляторний оприскувач 12 N",
-        image: "img-market/4.webp",
-        mono: 12,
-        pb: 10,
-        price_standart: 5220,
-        price_discount: 3900,
-        price_coupon: 3799,
-    }
-
-
+    
+        {
+            email: "23b_lam@liceum.ztu.edu.ua",
+            group: "10-Б 2",
+            fullName: "Лещенко Настя",
+            gameTitle: "dude настюшкі",
+            authorPhoto: "img clas/Лещенко.jpg",
+            gamePhoto: "url_to_game_photo.jpg",
+            githubRepo: "https://github.com/Leschenko1001/Phaser2ndGame1?authuser=0",
+            githubPages: "https://leschenko1001.github.io/Phaser2ndGame1/?authuser=0",
+            documentationFolder: "https://drive.google.com/drive/folders/1CqBXUS5Rk1u8nhEq3_l7LYMjDalYqPgW?usp=classroom_web&authuser=0",
+            surveyForm: "https://forms.gle/aLmXJ7nEnjo6PGuZ8?authuser=0",
+            gameMarketRepo: "https://github.com/Leschenko1001/GameMarket_Leschenko",
+            gameMarketPages: "https://leschenko1001.github.io/GameMarket_Leschenko/?authuser=0",
+            marketPages: "https://leschenko1001.github.io/GameMarket_Leschenko/market.html?authuser=0",
+            finalGameMarketPage: "https://leschenko1001.github.io/GameMarket_Leschenko/final/final.html?authuser=0"
+        },
+        {
+            email: "23b_lsa@liceum.ztu.edu.ua",
+            group: "10-Б 2",
+            fullName: "Лобода Софія",
+            gameTitle: "MOKOSH",
+            authorPhoto: "url_to_author_photo.jpg",
+            gamePhoto: "url_to_game_photo.jpg",
+            githubRepo: "https://github.com/Lobodass/project.git",
+            githubPages: "https://lobodass.github.io/project/",
+            documentationFolder: "https://drive.google.com/drive/folders/1-0efrhem62Vc__8Ir6qIFuatZJ_FjV50?usp=classroom_web&authuser=0",
+            surveyForm: "https://forms.gle/5DBw7bJ5v33uCqbt5",
+            gameMarketRepo: "https://github.com/Lobodass/siteinf.git",
+            gameMarketPages: "https://lobodass.github.io/siteinf/",
+            marketPages: "https://lobodass.github.io/siteinf/marcet.html?authuser=0",
+            finalGameMarketPage: "https://lobodass.github.io/siteinf/final/final.html?authuser=0"
+        },
+        {
+            email: "23b_nar@liceum.ztu.edu.ua",
+            group: "10-Б 2",
+            fullName: "Найбородін Артем",
+            gameTitle: "BestGame",
+            authorPhoto: "url_to_author_photo.jpg",
+            gamePhoto: "url_to_game_photo.jpg",
+            githubRepo: "https://github.com/Nayborodin/MyGame",
+            githubPages: "https://nayborodin.github.io/MyGame/",
+            documentationFolder: "https://drive.google.com/drive/folders/1G102lDz-nuYjqtOjxfLFwW2zB1R3BCgE",
+            surveyForm: "https://forms.gle/vitg4Rk5EUm3MZe38",
+            gameMarketRepo: "https://github.com/Nayborodin/GameMarket_Nayborodin",
+            gameMarketPages: "https://nayborodin.github.io/GameMarket_Nayborodin/",
+            marketPages: "https://nayborodin.github.io/GameMarket_Nayborodin/market.html",
+            finalGameMarketPage: "https://nayborodin.github.io/GameMarket_Nayborodin/final/final.html"
+        },
+        {
+            email: "23b_nod@liceum.ztu.edu.ua",
+            group: "10-Б 2",
+            fullName: "Нікітіч Олександр",
+            gameTitle: null,
+            authorPhoto: "url_to_author_photo.jpg",
+            gamePhoto: "url_to_game_photo.jpg",
+            githubRepo: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+            githubPages: "https://sashanikitich.github.io/Phaser2ndGame-2/",
+            documentationFolder: null,
+            surveyForm: "https://forms.gle/k4FbZfE31MSNpNoe6?authuser=0",
+            gameMarketRepo: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+            gameMarketPages: "https://sashanikitich.github.io/Phaser2ndGame-2/",
+            marketPages: null,
+            finalGameMarketPage: null
+        },
+        {
+            email: "23b_pos@liceum.ztu.edu.ua",
+            group: "10-Б 2",
+            fullName: "Продоус Олександр",
+            gameTitle: "SuperGame",
+            authorPhoto: "url_to_author_photo.jpg",
+            gamePhoto: "url_to_game_photo.jpg",
+            githubRepo: "https://github.com/Oleksandrpr321/-Phaser2ndGame.git",
+            githubPages: "https://oleksandrpr321.github.io/-Phaser2ndGame/",
+            documentationFolder: "https://drive.google.com/drive/folders/15dRiiBT-A6CAsZa0mXBR7k9_2edGz6bP?usp=drive_link",
+            surveyForm: "https://forms.gle/Y3SEVntm9Tr7znXu9",
+            gameMarketRepo: "https://github.com/Oleksandrpr321/-GameMarket_Prodous.git",
+            gameMarketPages: "https://oleksandrpr321.github.io/-GameMarket_Prodous/",
+            marketPages: "https://oleksandrpr321.github.io/-GameMarket_Prodous/market.html",
+            finalGameMarketPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/final/final.html"
+            },
+            {
+                email: "23b_pds@liceum.ztu.edu.ua",
+                group: "10-Б 2",
+                fullName: "Прокопчук Денис",
+                gameTitle: "Апокаліпсіс",
+                authorPhoto: "url_to_author_photo.jpg",
+                gamePhoto: "url_to_game_photo.jpg",
+                githubRepo: "https://github.com/Denis16543/Phaser2ndGame",
+                githubPages: "https://denis16543.github.io/Phaser2ndGame/",
+                documentationFolder: "https://drive.google.com/drive/folders/1KKIoePi4fkPjpWY4mAYEOL99wByIXX_t?usp=drive_link",
+                surveyForm: "https://forms.gle/yn4n8Gsu67vAtx8S9",
+                gameMarketRepo: "https://github.com/Denis16543/GameMarket",
+                gameMarketPages: "https://denis16543.github.io/GameMarket/",
+                marketPages: "https://denis16543.github.io/GameMarket_Prokopchuk/",
+                finalGameMarketPage: "https://denis16543.github.io/GameMarket_Prokopchuk/final/final.html"
+                },
+                {
+                email: "23b_syei@liceum.ztu.edu.ua",
+                group: "10-Б 2",
+                fullName: "Савицкьий Єгор",
+                gameTitle: "Falcon",
+                authorPhoto: "url_to_author_photo.jpg",
+                gamePhoto: "url_to_game_photo.jpg",
+                githubRepo: "https://github.com/HellcatFalcon/game.git",
+                githubPages: "https://github.com/HellcatFalcon/Faclon/settings/pages",
+                documentationFolder: "https://drive.google.com/drive/folders/1yCCzefMmd5BGGz9UBrljEXQWQThK9ImN?usp=drive_link",
+                surveyForm: "https://forms.gle/jAf9YW87aQqeoj4v6",
+                gameMarketRepo: "https://github.com/HellcatFalcon/GameMarket_Savitskiy.git",
+                gameMarketPages: "https://hellcatfalcon.github.io/GameMarket_Savitskiy/",
+                marketPages: "http://127.0.0.1:5500/market.html",
+                finalGameMarketPage: "http://127.0.0.1:5500/final/final.html"
+                },
+                {
+                email: "23b_stv@liceum.ztu.edu.ua",
+                group: "10-Б 2",
+                fullName: "Саух Тимофій",
+                gameTitle: "якісь колодязі",
+                authorPhoto: "url_to_author_photo.jpg",
+                gamePhoto: "url_to_game_photo.jpg",
+                githubRepo: "https://github.com/imnottimaw/Phaser2ndGame",
+                githubPages: "https://imnottimaw.github.io/Phaser2ndGame/",
+                documentationFolder: "https://drive.google.com/drive/folders/1YvPNGVqCD6BBzWr4azgHLxwar91rtT6H?usp=sharing",
+                surveyForm: "https://forms.gle/a58ghZiZdVJfZVLg6",
+                gameMarketRepo: "https://github.com/imnottimaw/GameMarket_Saukh",
+                gameMarketPages: "https://imnottimaw.github.io/GameMarket_Saukh/",
+                marketPages: "https://imnottimaw.github.io/GameMarket_Saukh/final/final.html",
+                finalGameMarketPage: "https://imnottimaw.github.io/GameMarket_Saukh/"
+                },
+                {
+                email: "23b_som@liceum.ztu.edu.ua",
+                group: "10-Б 2",
+                fullName: "Скримінська Оксана",
+                gameTitle: null,
+                authorPhoto: "url_to_author_photo.jpg",
+                gamePhoto: "url_to_game_photo.jpg",
+                githubRepo: "https://github.com/skryminska/Phaser2ndGame",
+                githubPages: "https://skryminska.github.io/Phaser2ndGame/",
+                documentationFolder: "https://docs.google.com/document/d/19B0k9awxwUCrPf3vL68ekIFYvMzU3q-tIg8Q3hMjbHQ/edit?usp=classroom_web&authuser=0",
+                surveyForm: "https://drive.google.com/drive/folders/12oLl0iIBZfpF77V-npksuc8hWW8cyCnd?usp=classroom_web&authuser=0",
+                gameMarketRepo: "https://github.com/skryminska/GameMarket_Skryminska",
+                gameMarketPages: "https://skryminska.github.io/GameMarket_Skryminska/",
+                marketPages: null,
+                finalGameMarketPage: null
+                },
+                {
+                email: "23b_sns@liceum.ztu.edu.ua",
+                group: "10-Б 2",
+                fullName: "Смолянова Ніка",
+                gameTitle: "Exiting way",
+                authorPhoto: "url_to_author_photo.jpg",
+                gamePhoto: "url_to_game_photo.jpg",
+                githubRepo: "https://github.com/Nikasms/-Phaser2ndGame.git",
+                githubPages: "https://nikasms.github.io/-Phaser2ndGame/",
+                documentationFolder: "https://drive.google.com/drive/folders/1oNBngdHeURy6zi-iwPPfUc8XsuIx5Ekk",
+                surveyForm: "https://forms.gle/MU9K5RhTwm4SJAXeA",
+                gameMarketRepo: "https://github.com/Nikasms/GameMarket_Smolianova.git",
+                gameMarketPages: "https://nikasms.github.io/GameMarket_Smolianova/",
+                marketPages: "https://nikasms.github.io/GameMarket_Smolianova/market.html",
+                finalGameMarketPage: "https://nikasms.github.io/GameMarket_Smolianova/final/final.html"
+                }
 ]
-// let itemsArray = [
-//     {
-//         firstName: "Віталій",
-//         lastName: "Шатківський",
-//         age: 43,
-//         subject: "Інформатика",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
-//         email: "pzs_shvm@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Наталія",
-//         lastName: "Венцель",
-//         age: 18,
-//         subject: "Директор",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
-//         email: "n.ventsel@ukr.net",
-//     },
-//     {
-//         firstName: "Наталія",
-//         lastName: "Кучер",
-//         age: 18,
-//         subject: "Фізика",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg", 
-//         url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
-//         email: "lic_knv@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Анжела",
-//         lastName: "Лознюк",
-//         age: 18,
-//         subject: "Українська мова, література",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
-//         email: "lic_lal@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Ірина",
-//         lastName: "Боровська-Карандюк",
-//         age: 18,
-//         subject: "Українська мова, література, зарубіжна література",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-//         email: "lic_bia@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Василь",
-//         lastName: "Бабій",
-//         age: 18,
-//         subject: "Фізична культура",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-//         email: "lic_bvd@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Тарас",
-//         lastName: "Савінков",
-//         age: 18,
-//         subject: "Англійська мова",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
-//         email: "lic_ste@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Вікторія",
-//         lastName: "Нелипович",
-//         age: 18,
-//         subject: "Математика",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
-//         email: "lic_nvv@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Іван",
-//         lastName: "Севрук",
-//         age: 18,
-//         subject: "Захист України",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
-//         email: "lic_sih@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Олена",
-//         lastName: "Чугунова",
-//         age: 18,
-//         subject: "Математика",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/chuhunova-olena-vasylivna-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/chuhunova-o-v/",
-//         email: "lic_chov@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Олена",
-//         lastName: "Геча",
-//         age: 18,
-//         subject: "Історія",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
-//         email: "lic_hoa@ztu.edu.ua",
-//     },
-//     {
-//         firstName: "Ірина",
-//         lastName: "Глібко",
-//         age: 18,
-//         subject: "Англійська мова",
-//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
-//         url: "https://lyceum.ztu.edu.ua/team/hlibko-iryna-anatoliyivna/",
-//         email: "lic_gia@ztu.edu.ua",
-//     },
-// ]
 
-
-//Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
-//Перевірка існування блоку
+
 if (itemsDiv) {
-    // //Створення блоків по кількості елементів масиву
-    // itemsArray.forEach((item,index) => {
-    //     // console.log(item)
-    //     //Виводимо на веб сторінку елемент масиву в блок з класом item
-    //     itemsDiv.innerHTML +=
-    //         `
-    //     <div class = "item">
-    //   <h2>Товар №${index}</h2>
-    //   <p>${item}</p>
-    //   </div>
-    //   `
-    // })
-
-    // } else {
-    //     //Повідомлення про не знайдений блок
-    //     console.log('Блок товарів не знайдено')
-
-    // }
-
-    // //Виведення едементів масиву
-    // itemsArray.forEach((item) => {
-    //     console.log(item)
-    // })
-    //Виведення елементів відсортованого масиву
-    // itemsArray.sort().forEach((item, index) => {
-    //     console.log(index + '-й елемент:',item)
-    // })
+    
     itemsArray.forEach((item, index) => {
-        // console.log(item)
-        // itemsDiv.innerText += item
-        // itemsDiv.innerHTML += `<div class = "item">${item}</div>`
-        //Виводимо на веб сторінку елемент масиву в блок з класом item
+       
         itemsDiv.innerHTML +=
-            // `
-            // <div class = "item">
-            //     <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
-            //     <p>${item.firstName} ${item.lastName}</p>
-            //     <p>Предмет: ${item.subject}</p>
-            //     <p><img src = "${item.photo}" class = "item-image"></p>
-            //     <p><a href = ${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>
-            //     <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Написати </a></p>
-            // </div>
-            // `
+           
             `
     <div class="item">
                 <!-- блок назва товару  -->
-                <div class="item-title">${item.title}</div>
+                <div class="item-title">${item.gameTitle}</div>
                 <!-- блок зображення товару  -->
                 <div class="item-image">
-                <img src="${item.image}" alt="" />
+                <img src="${item.authorPhoto}" alt="" />
                 </div>
                 <!-- блок з оплатою частинами -->
                 <div class="parts-pay">
-                    <div><img src="img-market/lapka.png" alt="" />${item.mono}</div>
-                    <div><img src="img-market/pb.png" alt="" />${item.pb}</div>
+                    
                 </div>
                 <!-- блок ціни -->
                 <div class="price">
-                    <div><span>${item.price_standart}</span> <sup>грн</sup></div>
-                    <div><span>${item.price_discount}</span> <sup>грн</sup></div>
+                    <div><span>${item.githubRepo}</span> <sup></sup></div>
+                   
                     </div>
 
                 <!-- блок бонусної ціни  -->
                 <div class="price bonus">
-                    <div>ціна за купоном</div>
-                    <div><span>${item.price_coupon}</span> <sup>грн</sup></div>
+                    <div></div>
+                    <div><span>${item.price_coupon}</span> <sup></sup></div>
                 </div>
             </div>
             
@@ -244,19 +204,10 @@ if (itemsDiv) {
 
 
 } else {
-    //Вивід повідомлення про не знайдений блок
-    console.log('Блок товарів не знайдено')
+
+    console.log('Error')
 }
-s
 
 
-// // //Виведення в консоль масиву
-// // console.log (itemsArray)
-// //Сортування масиву
-// itemsArray = itemsArray.sort()
 
-// //Виведення в консоль номерів та значень елементів масиву
-// for (let i = 0; i < itemsArray.length; i++){
-//     console.log(i +'-й елемент:',itemsArray[i])
-// }
 
